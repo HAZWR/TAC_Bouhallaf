@@ -39,4 +39,19 @@ public class MoneySameCurrTest {
     	assertFalse(f12EUR.equals(f14EUR));
     	
     }
+    
+    @Test
+    public void case4()throws UnexistingCurrencyException{
+    	String obj1 = new String("JUST FOR FUN");
+    	f12EUR=mf.createMoney(12,"EUR");
+    	assertFalse(f12EUR.equals(obj1));
+    }
+    
+    @Test
+    public void case5()throws UnexistingCurrencyException{
+    	f14EUR = null;
+    	f12EUR=mf.createMoney(12,"EUR");
+    	assertFalse(f12EUR.equals(f14EUR));
+    }
+    
 }

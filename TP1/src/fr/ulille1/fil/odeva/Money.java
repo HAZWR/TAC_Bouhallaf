@@ -30,13 +30,19 @@ public class Money {
     
     @Override
     public boolean equals(Object object){
+    	if(object==null)
+    		return false;  	
+    	if(!(object instanceof Money))
+    		return false;
     	Money obje = (Money) object;
-    	if((value==obje.getValue()) && (currency==obje.getCurrency()))
+    	if((value==obje.getValue()) && (currency.equals(obje.getCurrency())))
     			return true;
-    	if((value==obje.getValue()) && (currency.toUpperCase()==obje.getCurrency().toUpperCase()))
+    	if((value==obje.getValue()) && (currency.toUpperCase().equals(obje.getCurrency().toUpperCase())))
 		        return true;
-    	else
+    	if((value!=obje.getValue()) || (!currency.equals(obje.getCurrency())))
     		    return false;
+    
+		return true;
     	
     	
     }

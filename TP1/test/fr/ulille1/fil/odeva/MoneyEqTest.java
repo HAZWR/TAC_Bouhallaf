@@ -24,19 +24,14 @@ public class MoneyEqTest {
 	    	assertFalse(f12EUR.equals(f14EUR));
 	    }
 	    
-	    @Test(expected = IncompatibleCurrencyException.class)
+	    @Test
 	    public void case4() throws UnexistingCurrencyException{
 	    	f12EUR=mf.createMoney(12,"EUR");
 	    	f14EUR=mf.createMoney(14, "CHR");
 	    	assertFalse(f12EUR.equals(f14EUR));
 	    }
 	    
-	    @Test
-	    public void case5() throws UnexistingCurrencyException{
-	    	Object money = null;
-	    	f14EUR=mf.createMoney(12, "CHR");
-	    	assertFalse(f12EUR.equals(money));
-	    }
-
+	    
+	    
 
 }
