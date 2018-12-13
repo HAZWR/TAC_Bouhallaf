@@ -39,12 +39,6 @@ QUnit.test("test money negative", function(assert)
 {
 	assert.expect(1);
 	var mm=new money(-5,"EUR");
-	assert.throws(function(assert) {var m=mm},
-	function (){
-    		return "Valeur négative : "+mm.getValue();
-    },
-	"Money Negative");
+	assert.throws(function(assert) {var m=mm},MoneyNegative,"Money Negative");
 }
 );
-
-
