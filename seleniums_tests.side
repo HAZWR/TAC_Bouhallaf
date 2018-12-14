@@ -1,0 +1,640 @@
+{
+  "id": "3f14208b-8c35-4f2a-8d41-ec06cf6b2ad5",
+  "version": "1.1",
+  "name": "seleniums_tests",
+  "url": "http://forge.fil.univ-lille1.fr",
+  "tests": [{
+    "id": "2d0909b7-4332-4fd4-af75-efdeeced521a",
+    "name": "Test_Forge",
+    "commands": [{
+      "id": "b8d3cae7-1e47-4aba-8532-61c0e037ff34",
+      "comment": "",
+      "command": "open",
+      "target": "/OTI/wiki/TestsSelenium",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91577931-b096-4ebb-bdd8-8081c446b4bf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "832x693",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce95b078-7f9e-4605-90ab-c1d068a95396",
+      "comment": "",
+      "command": "click",
+      "target": "css=li.first.active",
+      "targets": [
+        ["css=li.first.active", "css"],
+        ["css=.active", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5c31d99-5080-41e5-83a5-c84fc97f89f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=li.first.active",
+      "targets": [
+        ["css=li.first.active", "css"],
+        ["css=.active", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "472323d6-36af-4068-97ee-1392fd02234c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#liflmainnav li:nth-child(2)",
+      "targets": [
+        ["css=#liflmainnav li:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00b5a48c-c117-4df1-ac1a-c69e350c9659",
+      "comment": "",
+      "command": "click",
+      "target": "css=#liflmainnav li:nth-child(2)",
+      "targets": [
+        ["css=#liflmainnav li:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7523e361-f433-47b5-91d7-08cb0a8cc99b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#liflmainnav li:nth-child(2)",
+      "targets": [
+        ["css=#liflmainnav li:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d34ade2-0ea2-401c-9d55-b28d55643117",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Timeline",
+      "targets": [
+        ["linkText=Timeline", "linkText"],
+        ["css=#liflmainnav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Timeline')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/timeline')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3bf68f6-81b5-43a4-b978-5e9f922cf570",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Roadmap",
+      "targets": [
+        ["linkText=Roadmap", "linkText"],
+        ["css=#liflmainnav li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Roadmap')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/roadmap')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "509c1f5d-0a87-495a-b96c-4235c75f105d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Browse Source",
+      "targets": [
+        ["linkText=Browse Source", "linkText"],
+        ["css=#liflmainnav li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Browse Source')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/browser')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "900cc80c-2eb9-47e1-8fc8-224b64d2f9da",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View Tickets",
+      "targets": [
+        ["linkText=View Tickets", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/report')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f07c72b1-3d77-4842-9dc4-5ba64d01b552",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Search",
+      "targets": [
+        ["linkText=Search", "linkText"],
+        ["css=#liflmainnav > ul > li.last > a", "css"],
+        ["css=.last:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/search')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a34268a-c500-4248-b1e2-d465b6f2ef2a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Timeline",
+      "targets": [
+        ["linkText=Timeline", "linkText"],
+        ["css=#liflmainnav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Timeline')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/timeline')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4294559-9d5f-48d6-a5d2-a3b8afaf4e3b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Roadmap",
+      "targets": [
+        ["linkText=Roadmap", "linkText"],
+        ["css=#liflmainnav li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Roadmap')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/roadmap')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13aa9cab-9c17-4420-a09d-36718ad61369",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Browse Source",
+      "targets": [
+        ["linkText=Browse Source", "linkText"],
+        ["css=#liflmainnav li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Browse Source')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/browser')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2312a94d-d350-4d61-bac5-14c6e397811a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Browse Source",
+      "targets": [
+        ["linkText=Browse Source", "linkText"],
+        ["css=#liflmainnav li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Browse Source')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/browser')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41ad8dd9-ad8c-4119-8c79-f5f0854d5e28",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Browse Source",
+      "targets": [
+        ["linkText=Browse Source", "linkText"],
+        ["css=#liflmainnav li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Browse Source')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/browser')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9247fc11-4e32-41a7-940f-4da0ff7d03fe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View Tickets",
+      "targets": [
+        ["linkText=View Tickets", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/report')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b186173-8d73-4ea4-9d27-aeece9f94703",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View Tickets",
+      "targets": [
+        ["linkText=View Tickets", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/report')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4acc04de-cb07-43b3-8794-4d578f151814",
+      "comment": "",
+      "command": "click",
+      "target": "css=#liflmainnav > ul > li.last",
+      "targets": [
+        ["css=#liflmainnav > ul > li.last", "css"],
+        ["css=.last:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//li[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "122ec84d-a099-41e4-96ca-b16f07f89bbe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Search",
+      "targets": [
+        ["linkText=Search", "linkText"],
+        ["css=#liflmainnav > ul > li.last > a", "css"],
+        ["css=.last:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/search')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adaf6fe5-b0c0-43df-a8d6-f51aa6e00f30",
+      "comment": "",
+      "command": "click",
+      "target": "css=#liflmainnav > ul > li.first",
+      "targets": [
+        ["css=#liflmainnav > ul > li.first", "css"],
+        ["css=#liflmainnav .first", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55625292-68e6-4865-a1e9-3afe588ff929",
+      "comment": "",
+      "command": "click",
+      "target": "css=#liflmainnav > ul > li.first",
+      "targets": [
+        ["css=#liflmainnav > ul > li.first", "css"],
+        ["css=#liflmainnav .first", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15c7ae91-fcd5-4637-8a66-5ae3dad88fda",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wiki",
+      "targets": [
+        ["linkText=Wiki", "linkText"],
+        ["css=#liflmainnav > ul > li.first > a", "css"],
+        ["css=#liflmainnav .first > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wiki')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/OTI/wiki')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f716984e-3cfd-4638-bb9c-51a030cdbb43",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Timeline",
+      "targets": [
+        ["linkText=Timeline", "linkText"],
+        ["css=#liflmainnav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Timeline')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/timeline')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "016ba243-0318-497a-8c67-fdfe7bfbc710",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Roadmap",
+      "targets": [
+        ["linkText=Roadmap", "linkText"],
+        ["css=#liflmainnav li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Roadmap')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/roadmap')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa92cfb0-36cf-41ed-aa6f-22725339076d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Browse Source",
+      "targets": [
+        ["linkText=Browse Source", "linkText"],
+        ["css=#liflmainnav li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Browse Source')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/browser')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dca7784-e273-406e-a7b5-6315bf7a697a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View Tickets",
+      "targets": [
+        ["linkText=View Tickets", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/report')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b085270b-d3c2-4d84-8023-4b387737bec1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Search",
+      "targets": [
+        ["linkText=Search", "linkText"],
+        ["css=#liflmainnav > ul > li.last > a", "css"],
+        ["css=.last:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/search')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d413c7b0-d0ed-4873-8d6f-53410f91dc55",
+      "comment": "",
+      "command": "click",
+      "target": "css=#liflmainnav > ul > li.first",
+      "targets": [
+        ["css=#liflmainnav > ul > li.first", "css"],
+        ["css=#liflmainnav .first", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5abfa765-a931-46f3-8024-16296b80dc4c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Timeline",
+      "targets": [
+        ["linkText=Timeline", "linkText"],
+        ["css=#liflmainnav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Timeline')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/timeline')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e231c86d-dd8c-453b-b93b-4c3e9a0bf7cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Roadmap",
+      "targets": [
+        ["linkText=Roadmap", "linkText"],
+        ["css=#liflmainnav li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Roadmap')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/roadmap')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76cc4342-2765-4e5f-9698-307820049546",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Browse Source",
+      "targets": [
+        ["linkText=Browse Source", "linkText"],
+        ["css=#liflmainnav li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Browse Source')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/browser')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab065ca3-4cfa-40a8-87b2-b620b9572c48",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View Tickets",
+      "targets": [
+        ["linkText=View Tickets", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/report')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fa82786-6148-464e-b516-ccef60fda6a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#liflmainnav > ul > li.last",
+      "targets": [
+        ["css=#liflmainnav > ul > li.last", "css"],
+        ["css=.last:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//li[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c77ab00-f23c-41b9-83fe-e3f2afc280b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#liflmainnav > ul > li.last",
+      "targets": [
+        ["css=#liflmainnav > ul > li.last", "css"],
+        ["css=.last:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//li[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "930f8ead-1196-4479-9e37-f1fc68cec24a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#liflmainnav > ul > li.last",
+      "targets": [
+        ["css=#liflmainnav > ul > li.last", "css"],
+        ["css=.last:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//li[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5af0f0f0-379f-4416-80ec-e6cedfec181d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#liflmainnav > ul > li.last",
+      "targets": [
+        ["css=#liflmainnav > ul > li.last", "css"],
+        ["css=.last:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//li[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "721e8d06-c046-4b82-a65d-025609f3ede0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Search",
+      "targets": [
+        ["linkText=Search", "linkText"],
+        ["css=#liflmainnav > ul > li.last > a", "css"],
+        ["css=.last:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/search')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b14b6b60-399f-4e06-8b39-2e89ea6b7148",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Wiki",
+      "targets": [
+        ["linkText=Wiki", "linkText"],
+        ["css=#liflmainnav > ul > li.first > a", "css"],
+        ["css=#liflmainnav .first > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wiki')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/OTI/wiki')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b925aeb8-801b-4b54-9bf4-e792d07fede1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Timeline",
+      "targets": [
+        ["linkText=Timeline", "linkText"],
+        ["css=#liflmainnav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Timeline')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/timeline')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50dbf66a-6b63-4278-92a2-353a0b65b4e9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Browse Source",
+      "targets": [
+        ["linkText=Browse Source", "linkText"],
+        ["css=#liflmainnav li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Browse Source')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/browser')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e32e2ebd-ccdc-4a2b-b2c6-ae25a9016112",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View Tickets",
+      "targets": [
+        ["linkText=View Tickets", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/report')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47f3979a-daea-47dc-bca1-78fbc24a377d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#liflmainnav > ul > li.last",
+      "targets": [
+        ["css=#liflmainnav > ul > li.last", "css"],
+        ["css=.last:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//li[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "999c94a2-a7e1-41bc-ad95-5ac5b27aa8c2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Search",
+      "targets": [
+        ["linkText=Search", "linkText"],
+        ["css=#liflmainnav > ul > li.last > a", "css"],
+        ["css=.last:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/search')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d8251be-31bd-4798-bfe0-cfd671d40bf8",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Search",
+      "targets": [
+        ["linkText=Search", "linkText"],
+        ["css=#liflmainnav > ul > li.last > a", "css"],
+        ["css=.last:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/search')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a4a5ba3-834f-49ad-b749-192a2813ec9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#liflmainnav > ul > li.first",
+      "targets": [
+        ["css=#liflmainnav > ul > li.first", "css"],
+        ["css=#liflmainnav .first", "css:finder"],
+        ["xpath=//div[@id='liflmainnav']/ul/li", "xpath:idRelative"],
+        ["xpath=//div[3]/ul/li", "xpath:position"]
+      ],
+      "value": "Wiki\\n"
+    }]
+  }],
+  "suites": [{
+    "id": "238e9eeb-104f-476a-a973-7686957653b0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2d0909b7-4332-4fd4-af75-efdeeced521a"]
+  }],
+  "urls": ["http://forge.fil.univ-lille1.fr/"],
+  "plugins": []
+}
