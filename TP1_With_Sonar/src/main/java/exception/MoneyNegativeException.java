@@ -1,4 +1,4 @@
-package lille;
+package exception;
 
 public class MoneyNegativeException extends RuntimeException {
 	MoneyNegativeException() {

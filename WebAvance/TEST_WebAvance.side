@@ -1,0 +1,288 @@
+{
+  "id": "5d07c90f-d146-4516-a4f1-d359c4d7e51c",
+  "version": "1.1",
+  "name": "TEST_WebAvance",
+  "url": "http://127.0.0.1:8080",
+  "tests": [{
+    "id": "606b579b-95d4-4c9f-9c7d-014dac9d2d0e",
+    "name": "Untitled",
+    "commands": [{
+      "id": "7ec26f4a-d8ca-4da6-8bf0-d8f1985b5ab8",
+      "comment": "",
+      "command": "open",
+      "target": "/src/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc1bfe22-c290-4d64-bbdb-9b966c24fb7c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "832x697",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12b50c9b-17cc-4450-a9e9-866f2806c523",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.panel-footer",
+      "targets": [
+        ["css=div.panel-footer", "css"],
+        ["css=#Jour04 > .panel:nth-child(1) > .panel-footer", "css:finder"],
+        ["xpath=//div[@id='Jour04']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]", "xpath:position"]
+      ],
+      "value": "M5 - A6 / e-Services"
+    }, {
+      "id": "ec8bef47-5b1d-4b19-894c-97dc6de61436",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#Jour04 > .panel:nth-child(2) > .panel-footer",
+      "targets": [
+        ["css=#Jour04 > .panel:nth-child(2) > .panel-footer", "css:finder"],
+        ["xpath=//div[@id='Jour04']/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": "M5 - A2 / Recherche"
+    }, {
+      "id": "73881a8b-cb5b-4b4f-af5a-d0749be08d4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.panel-body",
+      "targets": [
+        ["css=div.panel-body", "css"],
+        ["css=#Jour04 > .panel:nth-child(1) > .panel-body", "css:finder"],
+        ["xpath=//div[@id='Jour04']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25f43a16-0c20-410d-ba56-f469a9c3c629",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Jour06 > div.panel.panel-default > div.panel-footer",
+      "targets": [
+        ["css=#Jour06 > div.panel.panel-default > div.panel-footer", "css"],
+        ["css=#Jour06 > .panel:nth-child(1) > .panel-footer", "css:finder"],
+        ["xpath=//div[@id='Jour06']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a03cdbc0-269f-4e45-9ed1-09b34d6ad1fb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#Jour06 > div.panel.panel-default > div.panel-footer",
+      "targets": [
+        ["css=#Jour06 > div.panel.panel-default > div.panel-footer", "css"],
+        ["css=#Jour06 > .panel:nth-child(1) > .panel-footer", "css:finder"],
+        ["xpath=//div[@id='Jour06']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": "M5 - A6 / e-Services"
+    }, {
+      "id": "27c71edd-242a-4d6b-a9c5-789da2d9961b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#Jour07 > div.panel.panel-default > div.panel-footer",
+      "targets": [
+        ["css=#Jour07 > div.panel.panel-default > div.panel-footer", "css"],
+        ["css=#Jour07 > .panel:nth-child(1) > .panel-footer", "css:finder"],
+        ["xpath=//div[@id='Jour07']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[3]", "xpath:position"]
+      ],
+      "value": "M5 - A7 / IAGL"
+    }, {
+      "id": "696f60ba-3aff-427e-a06e-ee6932619a0d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#Jour04 > .panel:nth-child(2) > .panel-footer",
+      "targets": [
+        ["css=#Jour04 > .panel:nth-child(2) > .panel-footer", "css:finder"],
+        ["xpath=//div[@id='Jour04']/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": "M5 - A2 / Recherche"
+    }, {
+      "id": "95697d4a-1a1a-4692-841c-eb12a4605c32",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#Jour05 > .panel:nth-child(2) > .panel-footer",
+      "targets": [
+        ["css=#Jour05 > .panel:nth-child(2) > .panel-footer", "css:finder"],
+        ["xpath=//div[@id='Jour05']/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": "M5 - A6 / e-Services"
+    }, {
+      "id": "5d22f6fc-facd-4005-8e7e-8b13d3d6eeba",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#Jour06 > .panel:nth-child(2) > .panel-footer",
+      "targets": [
+        ["css=#Jour06 > .panel:nth-child(2) > .panel-footer", "css:finder"],
+        ["xpath=//div[@id='Jour06']/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": "M5 - A6 / e-Services"
+    }, {
+      "id": "37c88ea8-1183-456f-bf47-919f79145179",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#Jour07 > .panel:nth-child(2) > .panel-footer",
+      "targets": [
+        ["css=#Jour07 > .panel:nth-child(2) > .panel-footer", "css:finder"],
+        ["xpath=//div[@id='Jour07']/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div[3]", "xpath:position"]
+      ],
+      "value": "M5 - A7 / IAGL"
+    }, {
+      "id": "ebfa88d7-cc79-4e57-a5f3-ccd20d32d8a4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#Jour07 > .panel:nth-child(3) > .panel-footer",
+      "targets": [
+        ["css=#Jour07 > .panel:nth-child(3) > .panel-footer", "css:finder"],
+        ["xpath=//div[@id='Jour07']/div[3]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[3]/div[3]", "xpath:position"]
+      ],
+      "value": "M5 - A2 / TIIR"
+    }, {
+      "id": "a57c8219-b86b-4b43-9c90-b032fb262712",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.panel-body",
+      "targets": [
+        ["css=div.panel-body", "css"],
+        ["css=#Jour04 > .panel:nth-child(1) > .panel-body", "css:finder"],
+        ["xpath=//div[@id='Jour04']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]", "xpath:position"]
+      ],
+      "value": "Ludovic Goldak\\nProxiad\\nTarby"
+    }, {
+      "id": "e882095e-096f-4031-ba06-8dc1449369dc",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div.panel-heading",
+      "targets": [
+        ["css=div.panel-heading", "css"],
+        ["css=#Jour04 > .panel:nth-child(1) > .panel-heading", "css:finder"],
+        ["xpath=//div[@id='Jour04']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "08:30"
+    }, {
+      "id": "3e58508c-df54-4262-a100-ad48f91dc6f9",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#Jour05 > div.panel.panel-default > div.panel-body",
+      "targets": [
+        ["css=#Jour05 > div.panel.panel-default > div.panel-body", "css"],
+        ["css=#Jour05 > .panel:nth-child(1) > .panel-body", "css:finder"],
+        ["xpath=//div[@id='Jour05']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Dorian Ongenae\\nWorldline\\nRoutier"
+    }, {
+      "id": "d9507df4-cb4b-4647-8d82-ffc2af7ba4fa",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#Jour06 > div.panel.panel-default > div.panel-body",
+      "targets": [
+        ["css=#Jour06 > div.panel.panel-default > div.panel-body", "css"],
+        ["css=#Jour06 > .panel:nth-child(1) > .panel-body", "css:finder"],
+        ["xpath=//div[@id='Jour06']/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]", "xpath:position"]
+      ],
+      "value": "Norhane El Gharbi\\nCap Gemini\\nRoos"
+    }, {
+      "id": "48adc7b6-7924-4e54-a31e-c34e4c61fc94",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.panel:nth-child(21) > .panel-heading",
+      "targets": [
+        ["css=.panel:nth-child(21) > .panel-heading", "css:finder"],
+        ["xpath=//div[@id='Jour04']/div[21]/div", "xpath:idRelative"],
+        ["xpath=//div[21]/div", "xpath:position"]
+      ],
+      "value": "17:00"
+    }, {
+      "id": "498b2f47-44eb-4a86-a12e-8e655c0ee962",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.row",
+      "targets": [
+        ["css=div.row", "css"],
+        ["css=.row", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7927988-b805-42b2-afe0-2bac0faa1985",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.row",
+      "targets": [
+        ["css=div.row", "css"],
+        ["css=.row", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d19a80c2-1724-4e8c-ac97-23528f258bd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.row",
+      "targets": [
+        ["css=div.row", "css"],
+        ["css=.row", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb9ec4aa-9940-4c71-8cad-7287ea2af65c",
+      "comment": "",
+      "command": "click",
+      "target": "id=Planning",
+      "targets": [
+        ["id=Planning", "id"],
+        ["css=#Planning", "css"],
+        ["css=#Planning", "css:finder"],
+        ["xpath=//div[@id='Planning']", "xpath:attributes"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21b08dd0-c530-4274-ac82-8c8f225b31b6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div.row",
+      "targets": [
+        ["css=div.row", "css"],
+        ["css=.row", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01a91c91-8bff-4713-b8ca-dddb3f01fa47",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.row",
+      "targets": [
+        ["css=div.row", "css"],
+        ["css=.row", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8421cdfd-4b79-4adf-a07a-4f9c3df2bb39",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["606b579b-95d4-4c9f-9c7d-014dac9d2d0e"]
+  }],
+  "urls": ["http://127.0.0.1:8080/"],
+  "plugins": []
+}

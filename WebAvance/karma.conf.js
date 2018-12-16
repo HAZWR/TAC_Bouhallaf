@@ -20,7 +20,6 @@ module.exports = function(config) {
 	  'C:/Users/User/node_modules/karma-coverage',
 	  'C:/Users/User/node_modules/qunit/bin',	  
       'src/*.js',
-      'test/money_test.js'
     ],
 
 

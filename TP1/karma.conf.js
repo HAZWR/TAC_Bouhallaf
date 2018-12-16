@@ -1,3 +1,6 @@
+// Karma configuration
+// Generated on Sun Dec 16 2018 19:05:05 GMT+0100 (Paris, Madrid)
+
 module.exports = function(config) {
   config.set({
 
@@ -7,24 +10,15 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['qunit'], //remplacer par frameworks: ['qunit','sinon'] - si usage de sinon
+    frameworks: ['jasmine'],
 
 
     // list of files / patterns to load in the browser
     files: [
-	  'C:/Users/User/node_modules/karma/bin',
-	  'C:/Users/User/node_modules/qunitjs/bin',
-	  'C:/Users/User/node_modules/karma-qunit',
-	  'C:/Users/User/node_modules/qunitjs/qunit',
-	  'C:/Users/User/node_modules/karma-firefox-launcher',
-	  'C:/Users/User/node_modules/karma-coverage',
-	  'C:/Users/User/node_modules/qunit/bin',	  
-      'src/*.js',
-      'test/money_test.js'
     ],
 
 
-    // list of files to exclude
+    // list of files / patterns to exclude
     exclude: [
     ],
 
@@ -32,17 +26,16 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-	'src/*.js':['coverage']
     },
 
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress','coverage'],
-    coverageReporter: { type:   'lcov', dir: 'reports', subdir: 'coverage'},
- 
-   // web server port
+    reporters: ['progress'],
+
+
+    // web server port
     port: 9876,
 
 
@@ -52,7 +45,7 @@ module.exports = function(config) {
 
     // level of logging
     // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
-    logLevel: config.LOG_DEBUG,
+    logLevel: config.LOG_INFO,
 
 
     // enable / disable watching file and executing tests whenever any file changes
@@ -64,13 +57,12 @@ module.exports = function(config) {
     browsers: ['Firefox'],
 
 
-
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
-    singleRun: true,
+    singleRun: false,
 
     // Concurrency level
     // how many browser should be started simultaneous
     concurrency: Infinity
-  });
-};
+  })
+}

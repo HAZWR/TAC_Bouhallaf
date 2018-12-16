@@ -10,7 +10,7 @@ function CurrencyBigger(_currency) {
 	this.currency=_currency;
 }
 
-MoneyNegative.prototype.toString=function (){
+CurrencyBigger.prototype.toString=function (){
 		return "Currency Bigger : "+this.currency;
 }
 

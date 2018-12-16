@@ -2,5 +2,5 @@ projectKey=tester
 serverUrl=http://localhost:9000
 serverVersion=6.7.6.38781
 dashboardUrl=http://localhost:9000/dashboard/index/tester
-ceTaskId=AWepehEkI-v9bgSNXPD_
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AWepehEkI-v9bgSNXPD_
+ceTaskId=AWe4biw77gdDiCcsmEAE
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWe4biw77gdDiCcsmEAE
