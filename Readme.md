@@ -1,7 +1,13 @@
-TP1 : représente le premier TP de Junit
-TP1_With_Sonar : représente le premier TP de Junit avec Sonar 
-TP2 : représente le deuxième TP avec Sonar , et Selenium IDE
-WebAvance : représente le projet de Web Avancée avec Sonar , Selenium
-MoneyPhp : représente le projet PHP avec Selenium
-Seleniums_tests.side : représente les tests de Selenium pour tester la marge gauche
-selenium_driver_tp : représente le tp de Selenium Driver
+TP1 : reprï¿½sente le premier TP de Junit
+
+TP1_With_Sonar : reprï¿½sente le premier TP de Junit avec Sonar
+
+TP2 : reprï¿½sente le deuxiï¿½me TP avec Sonar ,la couverture Karma et Selenium IDE
+
+WebAvance : reprï¿½sente le projet de Web Avancï¿½e avec Sonar , Selenium
+
+MoneyPhp : reprï¿½sente le projet PHP avec Selenium
+
+Seleniums_tests.side : reprï¿½sente les tests de Selenium pour tester la marge gauche
+
+selenium_driver_tp : reprï¿½sente le tp de Selenium Driver
